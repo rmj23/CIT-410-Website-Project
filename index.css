@@ -1,6 +1,59 @@
-@charset "UTF-8";
+@charset "utf-8";
 /* CSS Document */
 
 body {
-	background-color: azure;
+	background-color: white;
+}
+
+body.noScroll {
+	overflow: hidden;
+}
+
+body h1 {
+	text-align: center;
+}
+
+body h6 {
+	padding: 30px;
+}
+
+footer {
+	background-color: #EFCAD4;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+footer p {
+	text-align: center;
+	color: black;
+}
+
+footer a {
+	color: black;
+}
+
+.centerSection {
+	background-color: #d9e6ef;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
+.marginSpace {
+	margin-top: 5px;
+}
+
+.button {
+	margin-top: 8px;
+}
+
+.center {
+	text-align: center;
+}
+
+.imageCenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
