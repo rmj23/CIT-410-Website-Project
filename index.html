@@ -1,62 +1,202 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Home Page for Sugar Website</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="index.css"/>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Sugar Science</title>
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
 	
-</head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="Styles/index.css"/>
+	<script src="Scripts/index.js"></script>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129735479-1"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
 
-<form action="form.php" method="post">
-	<div class="form-row">
-		<div class="form-group col-md-6">
-      		<label for="inputEmail4">Email</label>
-      		<input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-    	</div>
-    	<div class="form-group col-md-6">
-      		<label for="inputPassword4">Password</label>
-      		<input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-    	</div>
-  	</div>
-  	<div class="form-group">
-    	<label for="inputAddress">Address</label>
-    	<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-  	</div>
-  	<div class="form-group">
-    	<label for="inputAddress2">Address 2</label>
-    	<input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-  	</div>
-  	<div class="form-row">
-    	<div class="form-group col-md-6">
-      		<label for="inputCity">City</label>
-      		<input type="text" class="form-control" id="inputCity">
-    	</div>
-    	<div class="form-group col-md-4">
-			<label for="inputState">State</label>
-      			<select id="inputState" class="form-control">
-        			<option selected>Choose...</option>
-        			<option>...</option>
-      			</select>
-    	</div>
-    	<div class="form-group col-md-2">
-      		<label for="inputZip">Zip</label>
-      		<input type="text" class="form-control" id="inputZip">
-    	</div>
-  	</div>
-  	<div class="form-group">
-    	<div class="form-check">
-      		<input class="form-check-input" type="checkbox" id="gridCheck">
-      		<label class="form-check-label" for="gridCheck">Check me out</label>
-    	</div>
-  	</div>
-  <button type="submit" class="btn btn-primary">Sign in</button>
-</form>
-	
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  		gtag('config', 'UA-129735479-1');
+	</script>
+
+	<!-- Google AdSense (Monitaztion)-->
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<script>
+  		(adsbygoogle = window.adsbygoogle || []).push({
+    	google_ad_client: "ca-pub-9452657992596164",
+    	enable_page_level_ads: true
+  		});
+	</script>
+</head>
 	
 <body>
+
+<div class="container">
+	<img class="imageCenter" src="Images/sugarScience2.png" alt="Sugar Science Logo">
+</div>
+	
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #EFCAD4;" >
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+	  <ul class="navbar-nav">
+		  <li class="nav-item active">
+        	<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+		  </li>
+		  <li class="nav-item">
+			  <a class="nav-link" href="#">Results</a>
+		  </li>
+	  </ul>
+  </div>
+</nav>
+	
+<div class="container centerSection">
+	<div class="row">
+		<div class="container" style="padding-bottom: 20px;">
+			<h1>Welcome to SugarScience!</h1>
+			<h6>In order to get accurate and personalized results we need a little bit of information to begin. Below you will find a form requesting some personal bio metric information such as your height and weight. This information is not collected and used only to calculate your Total Daily Energy Expenditure (TDEE) this number just represents the total number of calories you need a day in order to maintain your current body composition.
+		
+			<br/><br/>We use your TDEE to generate some guidelines about how much sugar you should be eating based on the total number of calories you need a day. If your sugar intake is taking up a significant portion of your daily calories the risk for certain diseases can increase dramatically.
+			
+			<br/><br/>Your activity level would be depend on the amount of exercise experienced per week. A sedentary rating would mean no exercise while an extremely active would represent exercising everyday along with large amounts of activity. An activity rating of moderate would be exercising about four times a week.</h6>
+		</div>
+	</div>
+	<form action="form.php" method="post" class="needs-validation" novalidate>
+		<div class="row">
+			<div class="col">
+				<div class="form-group row">
+					<label for="inputAge" class="col col-form-label">Enter your age:</label>
+					<div class="col">
+						<input type="number" class="form-control" name="age" value="" id="age" placeholder="age">
+					</div>
+				</div>
+				<div class="form-group row">
+ 					<label for="inputWeight" class="col col-form-label">Enter weight in lbs:</label>
+  					<div class="col">
+    					<input type="number" class="form-control" name="weight" value="" id="weight" placeholder="weight">
+  					</div>
+				</div>
+				<div class="form-group row">
+					<label for="inputHeight" class="col col-form-label">Enter height in inches:</label>
+					<div class="col">
+						<input type="number" class="form-control" name="height" value="" id="height" placeholder="height">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="inputActivity" class="col col-form-label">Activity?</label>
+					<div class="col">
+					<select name="activity" id="activity">
+						<option value="1.2">Sedentary</option>
+						<option value="1.375">Lightly Active</option>
+						<option value="1.55">Moderately Active</option>
+						<option value="1.725">Very Active</option>
+						<option value="1.9">Extremely Active</option>
+					</select>
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="inputGender" class="col col-form-label">Select gender:</label>
+					<div class="col">
+					<select name="gender" id="gender">
+						<option value="Male">Male</option>
+						<option value="Female">Female</option>
+					</select>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="form-group row">
+					<label class="col col-form-label">How many soft drinks (soda) do you have a day?</label>
+					<div class="col">
+						<input type="number" class="form-control" name="soda" value="" id="soda" placeholder="12 oz can">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label class="col col-form-label">How many fruit juices do you have a day?</label>
+					<div class="col">
+						<input type="number" class="form-control" name="fruit" value="" id="fruit" placeholder="8oz serving">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label class="col col-form-label">How many candies or sweets do you have a day?</label>
+					<div class="col">
+						<input type="number" class="form-control" name="sweets" value="" id="sweets" placeholder="per bar of candy">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label class="col col-form-label">How many baked goods do you have a day?</label>
+					<div class="col">
+						<input type="number" class="form-control" name="baked" value="" id="baked" placeholder="per item">
+					</div>
+				</div>
+			</div>
+	</div>
+		<div class="form-row">
+			<div class="form-group col">
+				<label for="inputFirstname">First Name:</label>
+				<input type="text" class="form-control" name="FirstName" placeholder="First Name" required>
+				<div class="invalid-feedback">
+					Please enter your first name.
+				</div>
+				<label for="inputEmail" class="marginSpace">Email</label>
+      			<input type="email" class="form-control" name="Email" placeholder="Ex: someone@gmail.com" required>
+				<div class="invalid-feedback">
+					Please enter your email.
+				</div>
+			</div>
+			<div class="form-group col">
+				<label for="inputFirstname">Last Name:</label>
+				<input type="text" class="form-control" name="LastName" placeholder="Last Name" required>
+				<div class="invalid-feedback">
+					Please enter your last name.
+				</div>
+  			<div class="form-check marginSpace">
+   				<label class="form-check-label">
+				<input type="checkbox" class="form-check-input" name="Checkbox[]" value="Yes">Want to be added to our emailing list?</label>
+  			</div>
+				<button type="submit" class="btn btn-primary button">Submit to see your results!!!</button>
+			</div>
+		</div>
+	</form>
+</div>
+	
+<footer>
+	<p><a href="https://www.uncw.edu">UNCW</a> | <a href="https://csb.uncw.edu/">Cameron School of Business</a> | <a href="https://csb.uncw.edu/isom/mis.html">Management Information Systems</a><br/>Created by Ruben Morales Jr and Jake Wnuk | rm6839@uncw.edu</p>	
+</footer>
+		
+<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </body>
+
 </html>
